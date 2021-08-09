@@ -156,7 +156,8 @@
           </svg>
           {{$t("info")}}
         </p>
-        <div class="infotext" :class="{dark_infotext:$root.dark}">{{$t("betainfo")}}</div>
+        <div class="infotext" :class="{dark_infotext:$root.dark}">{{$t("betainfo")}}</div> 
+
         <!-- <div class="vote">
           <button class="likebtn" >
           <svg style="width:42px;height:42px;padding:3px" viewBox="0 0 24 24">
@@ -178,12 +179,12 @@
         <s-btn
           color="black"
           class="githubbtn"
-          @click="See('https://github.com/Coceki/new-pekobutton')"
+          @click="See('https://github.com/bobjiang6/koxia-button')"
         >
           <div>{{$t("helpdevelope")}}</div>
         </s-btn>
         <s-btn color="secondary" @click="playSpecial()">
-          <div>Co↘ce↗ki↘お兄ちゃん</div>
+          <div>星风</div>
         </s-btn>
       </div>
       <!-- 显示直播订阅信息 -->
@@ -255,14 +256,14 @@
             v-for="(upcoming,index2) in live_data"
             :key="index2"
           >
-          <div class="card cardM"
+          <!-- <div class="card cardM"
             :class="{dark:$root.dark}"
             style="padding: 5px !important;
                   padding-bottom: 20px !important;
                   margin: 10px !important;"
-            v-if="upcoming.status === 'upcoming'">
+            v-if="upcoming.status === 'upcoming'"> -->
             <!-- <img width="200px" class="liveimg" :src="upcoming.snippet.thumbnails.medium.url"/> -->
-            <p class="livetext" :class="{dark_text:$root.dark}">
+            <!-- <p class="livetext" :class="{dark_text:$root.dark}">
               <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                 <path
                   fill="#728bf3"
@@ -284,7 +285,7 @@
           </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="card cardM" :class="{dark:$root.dark}">
         <p class="cardtext" :class="{dark_text:$root.dark}">
           <svg style="width:42px;height:42px;transform: translate3d(0,30%,0);" viewBox="0 0 24 24">
