@@ -7,8 +7,8 @@ if (workbox) {
 
 // 设置缓存前缀和后缀，请根据实际项目名修改
 workbox.core.setCacheNameDetails({
-    prefix: 'pekobutton',
-    suffix: 'v2.2.6'
+    prefix: 'koxiabutton',
+    suffix: 'v0.0.1'
 });
 
 
@@ -57,7 +57,7 @@ workbox.routing.registerRoute(
 //缓存主站路由，按自己域名规则进行配置
 workbox.routing.registerRoute(
     // Vue
-    new RegExp('https://www.peko.top'),
+    new RegExp('https://www.koxia.love'),
     // 使用缓存，但尽快在后台更新
     workbox.strategies.staleWhileRevalidate()
 );
@@ -65,7 +65,7 @@ workbox.routing.registerRoute(
 
 // api缓存，优选从网络获取，网络异常时再使用缓存，请根据实际api url配置RegExp，只支持get请求
 workbox.routing.registerRoute(
-    new RegExp('https://peko.top'),
+    new RegExp('https://www.koxia.love'),
     workbox.strategies.staleWhileRevalidate({
         plugins: [
             new workbox.cacheableResponse.Plugin({

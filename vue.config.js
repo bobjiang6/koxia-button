@@ -9,21 +9,22 @@ module.exports = {
     },
 
     pwa: {
-        name: 'ぺこらボタン',
-        msTileColor: '#728bf3',
+        name: 'こしやボタン',
+        msTileColor: '#ee548e',
         appleMobileWebAppCapable: 'yes',
         appleMobileWebAppStatusBarStyle: 'black',
         workboxPluginMode: 'InjectManifest',
         workboxOptions: {
             swSrc: 'src/service-worker.js'
         },
-        themeColor: '#728bf3'
+        themeColor: '#ee548e'
     },
     devServer: {
         open: true,
+        disableHostCheck: true,
         proxy: {
             '/api': {
-                target: 'https://peko.top',
+                target: 'http://koxia.love',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/api': '/'
