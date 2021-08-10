@@ -1,24 +1,580 @@
 {
-    "groups": [{
-            "name": "hahaha",
+    "groups": [
+        {
+            "name": "其他",
             "translation": {
-                "Chinese": "各种哈↑哈↑哈↑",
-                "Japanese": "は↑は↑は↑",
-                "English": "Hahaha"
+                "Chinese": "其他"
             },
-            "voicelist": [{
-                    "name": "hahahahaha",
-                    "path": "hahahahaha.mp3",
+            "voicelist": [
+                {
+                    "name": "sensei你看",
+                    "path": "其他/sensei你看.mp3",
                     "translation": {
-                        "Chinese": "哈↑哈↑哈↓哈↓哈↓",
-                        "Japanese": "は↑は↑は↓は↓は↓",
-                        "English": "HA↑HA↑HA↓HA↓HA↓"
+                        "Chinese": "sensei你看"
+                    }
+                },
+                {
+                    "name": "sodayo",
+                    "path": "其他/sodayo.mp3",
+                    "translation": {
+                        "Chinese": "sodayo"
+                    }
+                },
+                {
+                    "name": "うつしあそび",
+                    "path": "其他/うつしあそび.mp3",
+                    "translation": {
+                        "Chinese": "うつしあそび"
+                    }
+                },
+                {
+                    "name": "シャルル",
+                    "path": "其他/シャルル.mp3",
+                    "translation": {
+                        "Chinese": "シャルル"
+                    }
+                },
+                {
+                    "name": "只要不要突然不讲话会一直熟下去的",
+                    "path": "其他/只要不要突然不讲话会一直熟下去的.mp3",
+                    "translation": {
+                        "Chinese": "只要不要突然不讲话会一直熟下去的"
+                    }
+                },
+                {
+                    "name": "吃什么好呢",
+                    "path": "其他/吃什么好呢.mp3",
+                    "translation": {
+                        "Chinese": "吃什么好呢"
+                    }
+                },
+                {
+                    "name": "怎么办啊",
+                    "path": "其他/怎么办啊.mp3",
+                    "translation": {
+                        "Chinese": "怎么办啊"
+                    }
+                },
+                {
+                    "name": "拜拜了您",
+                    "path": "其他/拜拜了您.mp3",
+                    "translation": {
+                        "Chinese": "拜拜了您"
+                    }
+                },
+                {
+                    "name": "桀桀",
+                    "path": "其他/桀桀.mp3",
+                    "translation": {
+                        "Chinese": "桀桀"
+                    }
+                },
+                {
+                    "name": "红豆泥阿里嘎多",
+                    "path": "其他/红豆泥阿里嘎多.mp3",
+                    "translation": {
+                        "Chinese": "红豆泥阿里嘎多"
+                    }
+                },
+                {
+                    "name": "自我介绍0",
+                    "path": "其他/自我介绍0.mp3",
+                    "translation": {
+                        "Chinese": "自我介绍0"
+                    }
+                },
+                {
+                    "name": "自我介绍2",
+                    "path": "其他/自我介绍2.mp3",
+                    "translation": {
+                        "Chinese": "自我介绍2"
+                    }
+                },
+                {
+                    "name": "诗夜知识学得比较少",
+                    "path": "其他/诗夜知识学得比较少.mp3",
+                    "translation": {
+                        "Chinese": "诗夜知识学得比较少"
+                    }
+                },
+                {
+                    "name": "这下你还不相信诗夜有158",
+                    "path": "其他/这下你还不相信诗夜有158.mp3",
+                    "translation": {
+                        "Chinese": "这下你还不相信诗夜有158"
+                    }
+                },
+                {
+                    "name": "这种东西是可以随便碰的吗",
+                    "path": "其他/这种东西是可以随便碰的吗.mp3",
+                    "translation": {
+                        "Chinese": "这种东西是可以随便碰的吗"
+                    }
+                },
+                {
+                    "name": "进行一个单的推",
+                    "path": "其他/进行一个单的推.mp3",
+                    "translation": {
+                        "Chinese": "进行一个单的推"
                     }
                 }
             ]
-        }      // ,
-        
-
-
+        },
+        {
+            "name": "可爱",
+            "translation": {
+                "Chinese": "可爱"
+            },
+            "voicelist": [
+                {
+                    "name": "喵",
+                    "path": "可爱/喵.mp3",
+                    "translation": {
+                        "Chinese": "喵"
+                    }
+                },
+                {
+                    "name": "嘿嘿嘿(棒读)",
+                    "path": "可爱/嘿嘿嘿(棒读).mp3",
+                    "translation": {
+                        "Chinese": "嘿嘿嘿(棒读)"
+                    }
+                },
+                {
+                    "name": "因为怕没人理诗夜 很怕",
+                    "path": "可爱/因为怕没人理诗夜 很怕.mp3",
+                    "translation": {
+                        "Chinese": "因为怕没人理诗夜 很怕"
+                    }
+                },
+                {
+                    "name": "对啊切不了",
+                    "path": "可爱/对啊切不了.mp3",
+                    "translation": {
+                        "Chinese": "对啊切不了"
+                    }
+                },
+                {
+                    "name": "烦死啦",
+                    "path": "可爱/烦死啦.mp3",
+                    "translation": {
+                        "Chinese": "烦死啦"
+                    }
+                },
+                {
+                    "name": "睡觉吧sensei",
+                    "path": "可爱/睡觉吧sensei.mp3",
+                    "translation": {
+                        "Chinese": "睡觉吧sensei"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "哇靠",
+            "translation": {
+                "Chinese": "哇靠"
+            },
+            "voicelist": [
+                {
+                    "name": "哇靠0",
+                    "path": "哇靠/哇靠0.mp3",
+                    "translation": {
+                        "Chinese": "哇靠0"
+                    }
+                },
+                {
+                    "name": "哇靠1",
+                    "path": "哇靠/哇靠1.mp3",
+                    "translation": {
+                        "Chinese": "哇靠1"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "常用语",
+            "translation": {
+                "Chinese": "常用语"
+            },
+            "voicelist": [
+                {
+                    "name": "可恶",
+                    "path": "常用语/可恶.mp3",
+                    "translation": {
+                        "Chinese": "可恶"
+                    }
+                },
+                {
+                    "name": "太好了",
+                    "path": "常用语/太好了.mp3",
+                    "translation": {
+                        "Chinese": "太好了"
+                    }
+                },
+                {
+                    "name": "太好了帮大忙了",
+                    "path": "常用语/太好了帮大忙了.mp3",
+                    "translation": {
+                        "Chinese": "太好了帮大忙了"
+                    }
+                },
+                {
+                    "name": "好变态压",
+                    "path": "常用语/好变态压.mp3",
+                    "translation": {
+                        "Chinese": "好变态压"
+                    }
+                },
+                {
+                    "name": "好坏",
+                    "path": "常用语/好坏.mp3",
+                    "translation": {
+                        "Chinese": "好坏"
+                    }
+                },
+                {
+                    "name": "好坏哦",
+                    "path": "常用语/好坏哦.mp3",
+                    "translation": {
+                        "Chinese": "好坏哦"
+                    }
+                },
+                {
+                    "name": "好怪啊",
+                    "path": "常用语/好怪啊.mp3",
+                    "translation": {
+                        "Chinese": "好怪啊"
+                    }
+                },
+                {
+                    "name": "好羞耻啊 不要",
+                    "path": "常用语/好羞耻啊 不要.mp3",
+                    "translation": {
+                        "Chinese": "好羞耻啊 不要"
+                    }
+                },
+                {
+                    "name": "怪耶",
+                    "path": "常用语/怪耶.mp3",
+                    "translation": {
+                        "Chinese": "怪耶"
+                    }
+                },
+                {
+                    "name": "我震惊",
+                    "path": "常用语/我震惊.mp3",
+                    "translation": {
+                        "Chinese": "我震惊"
+                    }
+                },
+                {
+                    "name": "救命啊",
+                    "path": "常用语/救命啊.mp3",
+                    "translation": {
+                        "Chinese": "救命啊"
+                    }
+                },
+                {
+                    "name": "真假的",
+                    "path": "常用语/真假的.mp3",
+                    "translation": {
+                        "Chinese": "真假的"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "怪叫",
+            "translation": {
+                "Chinese": "怪叫"
+            },
+            "voicelist": [
+                {
+                    "name": "呜",
+                    "path": "怪叫/呜.mp3",
+                    "translation": {
+                        "Chinese": "呜"
+                    }
+                },
+                {
+                    "name": "呜呜",
+                    "path": "怪叫/呜呜.mp3",
+                    "translation": {
+                        "Chinese": "呜呜"
+                    }
+                },
+                {
+                    "name": "呜呜呜",
+                    "path": "怪叫/呜呜呜.mp3",
+                    "translation": {
+                        "Chinese": "呜呜呜"
+                    }
+                },
+                {
+                    "name": "呜呜呜2",
+                    "path": "怪叫/呜呜呜2.mp3",
+                    "translation": {
+                        "Chinese": "呜呜呜2"
+                    }
+                },
+                {
+                    "name": "啊",
+                    "path": "怪叫/啊.mp3",
+                    "translation": {
+                        "Chinese": "啊"
+                    }
+                },
+                {
+                    "name": "啊呜",
+                    "path": "怪叫/啊呜.mp3",
+                    "translation": {
+                        "Chinese": "啊呜"
+                    }
+                },
+                {
+                    "name": "啊啊啊",
+                    "path": "怪叫/啊啊啊.mp3",
+                    "translation": {
+                        "Chinese": "啊啊啊"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "暴言",
+            "translation": {
+                "Chinese": "暴言"
+            },
+            "voicelist": [
+                {
+                    "name": "下跪",
+                    "path": "暴言/下跪.mp3",
+                    "translation": {
+                        "Chinese": "下跪"
+                    }
+                },
+                {
+                    "name": "你们都失忆了，都集体脑震荡了",
+                    "path": "暴言/你们都失忆了，都集体脑震荡了.mp3",
+                    "translation": {
+                        "Chinese": "你们都失忆了，都集体脑震荡了"
+                    }
+                },
+                {
+                    "name": "你礼貌吗",
+                    "path": "暴言/你礼貌吗.mp3",
+                    "translation": {
+                        "Chinese": "你礼貌吗"
+                    }
+                },
+                {
+                    "name": "别睡了别睡了听核",
+                    "path": "暴言/别睡了别睡了听核.mp3",
+                    "translation": {
+                        "Chinese": "别睡了别睡了听核"
+                    }
+                },
+                {
+                    "name": "少玩点手机吧",
+                    "path": "暴言/少玩点手机吧.mp3",
+                    "translation": {
+                        "Chinese": "少玩点手机吧"
+                    }
+                },
+                {
+                    "name": "开直播之后就很想睡觉",
+                    "path": "暴言/开直播之后就很想睡觉.mp3",
+                    "translation": {
+                        "Chinese": "开直播之后就很想睡觉"
+                    }
+                },
+                {
+                    "name": "看管的全都是阳角",
+                    "path": "暴言/看管的全都是阳角.mp3",
+                    "translation": {
+                        "Chinese": "看管的全都是阳角"
+                    }
+                },
+                {
+                    "name": "难道不能睡醒了也听睡着了也听吗",
+                    "path": "暴言/难道不能睡醒了也听睡着了也听吗.mp3",
+                    "translation": {
+                        "Chinese": "难道不能睡醒了也听睡着了也听吗"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "歌",
+            "translation": {
+                "Chinese": "歌"
+            },
+            "voicelist": [
+                {
+                    "name": "恋手指月",
+                    "path": "歌/恋手指月.mp3",
+                    "translation": {
+                        "Chinese": "恋手指月"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "语气词",
+            "translation": {
+                "Chinese": "语气词"
+            },
+            "voicelist": [
+                {
+                    "name": "哈↑",
+                    "path": "语气词/哈↑.mp3",
+                    "translation": {
+                        "Chinese": "哈↑"
+                    }
+                },
+                {
+                    "name": "哼",
+                    "path": "语气词/哼.mp3",
+                    "translation": {
+                        "Chinese": "哼"
+                    }
+                },
+                {
+                    "name": "嗐",
+                    "path": "语气词/嗐.mp3",
+                    "translation": {
+                        "Chinese": "嗐"
+                    }
+                },
+                {
+                    "name": "嗯",
+                    "path": "语气词/嗯.mp3",
+                    "translation": {
+                        "Chinese": "嗯"
+                    }
+                },
+                {
+                    "name": "嘶……唉",
+                    "path": "语气词/嘶……唉.mp3",
+                    "translation": {
+                        "Chinese": "嘶……唉"
+                    }
+                },
+                {
+                    "name": "对不起",
+                    "path": "语气词/对不起.mp3",
+                    "translation": {
+                        "Chinese": "对不起"
+                    }
+                },
+                {
+                    "name": "干嘛！",
+                    "path": "语气词/干嘛！.mp3",
+                    "translation": {
+                        "Chinese": "干嘛！"
+                    }
+                },
+                {
+                    "name": "怪死了",
+                    "path": "语气词/怪死了.mp3",
+                    "translation": {
+                        "Chinese": "怪死了"
+                    }
+                },
+                {
+                    "name": "怪死了2",
+                    "path": "语气词/怪死了2.mp3",
+                    "translation": {
+                        "Chinese": "怪死了2"
+                    }
+                },
+                {
+                    "name": "没有",
+                    "path": "语气词/没有.mp3",
+                    "translation": {
+                        "Chinese": "没有"
+                    }
+                },
+                {
+                    "name": "草",
+                    "path": "语气词/草.mp3",
+                    "translation": {
+                        "Chinese": "草"
+                    }
+                },
+                {
+                    "name": "诶？",
+                    "path": "语气词/诶？.mp3",
+                    "translation": {
+                        "Chinese": "诶？"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "问候",
+            "translation": {
+                "Chinese": "问候"
+            },
+            "voicelist": [
+                {
+                    "name": "中午好呀",
+                    "path": "问候/中午好呀.mp3",
+                    "translation": {
+                        "Chinese": "中午好呀"
+                    }
+                },
+                {
+                    "name": "中午问候2",
+                    "path": "问候/中午问候2.mp3",
+                    "translation": {
+                        "Chinese": "中午问候2"
+                    }
+                },
+                {
+                    "name": "午安了午安了",
+                    "path": "问候/午安了午安了.mp3",
+                    "translation": {
+                        "Chinese": "午安了午安了"
+                    }
+                },
+                {
+                    "name": "晚上好",
+                    "path": "问候/晚上好.mp3",
+                    "translation": {
+                        "Chinese": "晚上好"
+                    }
+                },
+                {
+                    "name": "晚安2",
+                    "path": "问候/晚安2.mp3",
+                    "translation": {
+                        "Chinese": "晚安2"
+                    }
+                },
+                {
+                    "name": "晚安3",
+                    "path": "问候/晚安3.mp3",
+                    "translation": {
+                        "Chinese": "晚安3"
+                    }
+                },
+                {
+                    "name": "晚安晚安",
+                    "path": "问候/晚安晚安.mp3",
+                    "translation": {
+                        "Chinese": "晚安晚安"
+                    }
+                },
+                {
+                    "name": "要睡觉啦！",
+                    "path": "问候/要睡觉啦！.mp3",
+                    "translation": {
+                        "Chinese": "要睡觉啦！"
+                    }
+                }
+            ]
+        }
     ]
 }
