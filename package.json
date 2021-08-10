@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@mdi/font": "^5.5.55",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "node-sass": "^4.14.1",
+    "node-sass": "^6.0.1",
     "register-service-worker": "^1.7.1",
     "sass": "^1.26.10",
     "sass-loader": "^8.0.2",

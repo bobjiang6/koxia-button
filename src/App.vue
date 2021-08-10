@@ -26,10 +26,15 @@
         @click="See(link.href)"
       >{{link.name}}</s-btn>
       <p class="footertext" :class="{dark_infotext:$root.dark}">{{$t("developerinfo")}}</p>
-      <p class="footertext" :class="{dark_infotext:$root.dark}">
+      <!-- <p class="footertext" :class="{dark_infotext:$root.dark}">
         Powered by
         <a href="https://www.vercel.com/?utm_source=vbuposc&utm_campaign=oss" target="_blank" rel="noreferrer">
           <img v-bind:src="vercel_logo" alt="vercel" height="24px"/>
+        </a>
+      </p> -->
+      <p class="footertext" :class="{dark_infotext:$root.dark}">
+        备案号：<a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">
+          沪ICP备2021022530号
         </a>
       </p>
     </div>
@@ -52,44 +57,44 @@ export default {
     links: [
       {
         name: "VTuber按钮合集",
-        href: "https://vtbbtn.org/",
+        href: "https://vbup-osc.github.io/vtuber-voice-button-collection//",
         color: "primary"
-      },
-      {
-        name: "樱按钮/みこボタン",
-        href: "https://sakuramiko.org/",
-        color: "miko_red"
-      },
-      {
-        name: "夸按钮/あくあボタン",
-        href: "https://aquaminato.moe/",
-        color: "purple"
-      },
-      {
-        name: "狐按钮/フブキボタン",
-        href: "https://sfubuki.moe/",
-        color: "blue"
-      },
-      {
-        name: "祭按钮/まつりボタン",
-        href: "https://natsuiromatsuri.moe/",
-        color: "secondary"
-      },
-      {
-        name: "狼按钮/ミオボタン",
-        href: "https://ookamimio.org/",
-        color: "black"
-      },
-      {
-        name: "余按钮/なきりあやめボタン",
-        href: "https://nakiriayame.moe/",
-        color: "red"
-      },
-      {
-        name: "狗按钮/ころねボタン",
-        href: "https://korone.icu/",
-        color: "brown"
       }
+      // {
+      //   name: "樱按钮/みこボタン",
+      //   href: "https://sakuramiko.org/",
+      //   color: "miko_red"
+      // },
+      // {
+      //   name: "夸按钮/あくあボタン",
+      //   href: "https://aquaminato.moe/",
+      //   color: "purple"
+      // },
+      // {
+      //   name: "狐按钮/フブキボタン",
+      //   href: "https://sfubuki.moe/",
+      //   color: "blue"
+      // },
+      // {
+      //   name: "祭按钮/まつりボタン",
+      //   href: "https://natsuiromatsuri.moe/",
+      //   color: "secondary"
+      // },
+      // {
+      //   name: "狼按钮/ミオボタン",
+      //   href: "https://ookamimio.org/",
+      //   color: "black"
+      // },
+      // {
+      //   name: "余按钮/なきりあやめボタン",
+      //   href: "https://nakiriayame.moe/",
+      //   color: "red"
+      // },
+      // {
+      //   name: "狗按钮/ころねボタン",
+      //   href: "https://korone.icu/",
+      //   color: "brown"
+      // }
     ]
     //
   }),
@@ -186,6 +191,9 @@ export default {
 </script>
 
 <style>
+.a{
+  text-decoration: none;
+}
 .footertext {
   margin: 10px;
   font-family: Helvetica;

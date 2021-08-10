@@ -8,7 +8,7 @@ const routes = [{
     path: '/',
     component: Home,
     meta: {
-        title: "ぺこらボタン PEKO BUTTON",
+        title: "こしやボタン KOXIA BUTTON",
     },
 }, ]
 

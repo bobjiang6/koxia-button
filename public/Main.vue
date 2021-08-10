@@ -93,7 +93,7 @@
             {{$t("ui.info")}}
           </p>
           <p>{{$t("ui.betainfo")}}</p>
-          <v-btn class="ma-2 pa-1" raised color="secondary" @click="playSpecial()">Co↘ce↗ki↘お兄ちゃん</v-btn>
+          <v-btn class="ma-2 pa-1" raised color="secondary" @click="playSpecial()">星风</v-btn>
         </v-card>
       </v-col>
     </v-row>
@@ -275,7 +275,7 @@ export default {
     },
     playSpecial(){
       let audio = new Audio();
-      audio.src="voices/私货.mp3";
+      audio.src="voices/星风.mp3";
       audio.preload = true;
       audio.play();
     },
