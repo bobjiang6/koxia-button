@@ -184,10 +184,24 @@
                     }
                 },
                 {
+                    "name": "哇靠0810",
+                    "path": "哇靠/哇靠0810.mp3",
+                    "translation": {
+                        "Chinese": "哇靠0810"
+                    }
+                },
+                {
                     "name": "哇靠1",
                     "path": "哇靠/哇靠1.mp3",
                     "translation": {
                         "Chinese": "哇靠1"
+                    }
+                },
+                {
+                    "name": "我靠0809",
+                    "path": "哇靠/我靠0809.mp3",
+                    "translation": {
+                        "Chinese": "我靠0809"
                     }
                 }
             ]
@@ -338,6 +352,13 @@
                     "translation": {
                         "Chinese": "啊啊啊"
                     }
+                },
+                {
+                    "name": "嘶……唉",
+                    "path": "怪叫/嘶……唉.mp3",
+                    "translation": {
+                        "Chinese": "嘶……唉"
+                    }
                 }
             ]
         },
@@ -427,6 +448,13 @@
             },
             "voicelist": [
                 {
+                    "name": "sodayo",
+                    "path": "语气词/sodayo.mp3",
+                    "translation": {
+                        "Chinese": "sodayo"
+                    }
+                },
+                {
                     "name": "哈↑",
                     "path": "语气词/哈↑.mp3",
                     "translation": {
@@ -508,6 +536,35 @@
                     "path": "语气词/诶？.mp3",
                     "translation": {
                         "Chinese": "诶？"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "通用",
+            "translation": {
+                "Chinese": "通用"
+            },
+            "voicelist": [
+                {
+                    "name": "吃什么好呢",
+                    "path": "通用/吃什么好呢.mp3",
+                    "translation": {
+                        "Chinese": "吃什么好呢"
+                    }
+                },
+                {
+                    "name": "开直播之后就很想睡觉",
+                    "path": "通用/开直播之后就很想睡觉.mp3",
+                    "translation": {
+                        "Chinese": "开直播之后就很想睡觉"
+                    }
+                },
+                {
+                    "name": "怎么办啊",
+                    "path": "通用/怎么办啊.mp3",
+                    "translation": {
+                        "Chinese": "怎么办啊"
                     }
                 }
             ]
