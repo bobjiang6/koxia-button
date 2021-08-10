@@ -21,20 +21,6 @@
                     }
                 },
                 {
-                    "name": "うつしあそび",
-                    "path": "其他/うつしあそび.mp3",
-                    "translation": {
-                        "Chinese": "うつしあそび"
-                    }
-                },
-                {
-                    "name": "シャルル",
-                    "path": "其他/シャルル.mp3",
-                    "translation": {
-                        "Chinese": "シャルル"
-                    }
-                },
-                {
                     "name": "只要不要突然不讲话会一直熟下去的",
                     "path": "其他/只要不要突然不讲话会一直熟下去的.mp3",
                     "translation": {
@@ -363,6 +349,35 @@
             ]
         },
         {
+            "name": "恋歌",
+            "translation": {
+                "Chinese": "恋歌"
+            },
+            "voicelist": [
+                {
+                    "name": "うつしあそび",
+                    "path": "恋歌/うつしあそび.mp3",
+                    "translation": {
+                        "Chinese": "うつしあそび"
+                    }
+                },
+                {
+                    "name": "シャルル",
+                    "path": "恋歌/シャルル.mp3",
+                    "translation": {
+                        "Chinese": "シャルル"
+                    }
+                },
+                {
+                    "name": "恋手指月",
+                    "path": "恋歌/恋手指月.mp3",
+                    "translation": {
+                        "Chinese": "恋手指月"
+                    }
+                }
+            ]
+        },
+        {
             "name": "暴言",
             "translation": {
                 "Chinese": "暴言"
@@ -422,21 +437,6 @@
                     "path": "暴言/难道不能睡醒了也听睡着了也听吗.mp3",
                     "translation": {
                         "Chinese": "难道不能睡醒了也听睡着了也听吗"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "歌",
-            "translation": {
-                "Chinese": "歌"
-            },
-            "voicelist": [
-                {
-                    "name": "恋手指月",
-                    "path": "歌/恋手指月.mp3",
-                    "translation": {
-                        "Chinese": "恋手指月"
                     }
                 }
             ]
